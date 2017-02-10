@@ -4,8 +4,6 @@ target 'Library_Example' do
   pod 'Library', :path => '../'
 
   target 'Library_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
+  pod 'Library', :path => '../'
   end
 end
